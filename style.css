@@ -1,0 +1,29 @@
+body{
+    color: green;
+    font-size: 25px;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /*
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    This is how you could do custom gaps between rows or columns
+    */
+    grid-gap: 1em;
+}
+
+.grid > div{
+    background: #eee;
+    padding: 1em;
+}
+
+.grid > div:nth-child(odd){
+    background:#ddd;
+}
