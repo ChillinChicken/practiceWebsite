@@ -1,6 +1,7 @@
 body{
-    color: green;
     font-size: 25px;
+    color: white;
+    background-color: rgb(65, 65, 65)
 }
 
 .container{
@@ -20,10 +21,15 @@ body{
 }
 
 .grid > div{
-    background: #eee;
+    background: rgb(139, 139, 139);
     padding: 1em;
 }
 
 .grid > div:nth-child(odd){
     background:#ddd;
+    color: black;
+}
+
+.appTopBar{
+    background: black;
 }
