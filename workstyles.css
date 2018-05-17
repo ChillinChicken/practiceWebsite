@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    margin: 0em;
+    padding: 0em;
+}
+#topTitle{
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+#toolBar{
+    background-color: black;
+    padding: 0.5em 1em 0.5em 1em; /* Top, Right, Bottom, Left */
+    position: relative;
+}
