@@ -10,8 +10,6 @@
         <title>
             Brandon's Practice Website Playground
         </title>
-        <base href="" target="_blank">
-        <meta name="" content="">
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
     <body>
@@ -58,6 +56,29 @@
                 <div>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi consectetur ducimus laudantium rem dolorem adipisci laborum quo, itaque veritatis id fugiat earum voluptatibus dolore, consequatur nostrum atque labore. Ipsam, odit.
                 </div>
+            </div>
+            <div>
+                Notes on MongoDB
+                1. Start in command line w/ "net start mongoDB"
+                    a. May need to be in directory (ex. C:\MongoDB\Server\3.6\bin)
+                2. Open shell "mongo" in bin dir.
+                    a. show dbs
+                    b. use (any) -- makes new db
+                        i. dbs are saved as "documents"
+                        ii. looks like a json file
+                        iii. can have arrays of objects
+                        iv. db.createUser() -- creates a User
+                        v. db.createCollection("string") -- creates a colection
+                        vi. (...).find() -- finds all of the objects in an collection or whatever
+                        vi. find().pretty() -- it's so pretty!
+                        vii. (...).update() -- need to include all data, will replace existing with what is included here
+                            1. .update(..., {$set:{json thingy}}); -- this will only add what is put in $set
+                            2. $inc -- incriments by a given amount
+                            3. $unset -- removes a field in an object
+                            4. upsert -- if set to true, will add a new object if one is not found durring an update
+                            5. $rename -- can rename a feild within an object
+                        viii. .remove() -- what do you think it does?
+                        
             </div>
         </div>
     </body>

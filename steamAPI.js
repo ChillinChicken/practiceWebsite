@@ -31,5 +31,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
+//http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=XXXXXXXXXXXXXXXXXXXXXXX&steamids=76561197960435530
 //Key: DD34C283C4D69006A22A5C70917621D5
